@@ -1,0 +1,92 @@
+body {
+    background:             #1e1e1e;
+    color:                  #E6E6E6;
+    line-height:            1.5;
+    -webkit-font-smoothing: antialiased;
+       //margin:0;
+	padding:0;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#content {
+	padding:10px;
+	padding-bottom:22px;   /* Height of the footer element */
+}
+
+#header {
+	padding:10px;
+}
+
+@font-face {
+    font-family: "Fjalla One";
+    font-style:  normal;
+    font-weight: 400;
+    src:         local("Fjalla One"), local("FjallaOne-Regular"), url("../fjalla-font.woff") format("woff");
+}
+
+a {
+    font-size:          100%;
+    text-decoration:    none;
+    color:              #08c;
+    -webkit-transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    -moz-transition:    color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    -o-transition:      color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #005580;
+}
+
+.left {
+float: left;
+margin-right: 200px;
+}
+
+.right {
+float: center;
+margin-right: 200px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Fjalla One", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size:   40px;
+    line-height: 1.35;
+}
+
+h2 {
+    font-size:   28px;
+    line-height: 1.29;
+}
+
+h3 {
+    font-size:   24px;
+    line-height: 1.5;
+}
+
+//html, body, #container { height: 100%; }
+//body > #container { height: auto; min-height: 100%; }
+
+#footer {
+ clear: both;
+ position: absolute;
+ height: 22px;
+ margin-top: -2px;
+ background-color: #1e1e1e;
+ border-top: solid #A4A4A4;
+ width:100%;
+bottom:0;
+left:0;
+}
+.aligncenter { display: block;margin: auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+
+
